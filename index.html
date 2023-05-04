@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Style Files -->
+    <link rel="stylesheet" href="css/sweetalert2.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <!-- Js Files -->
+    <script src="js/confetti.js" defer></script>
+    <script src="js/sweetalert2.all.min.js" defer></script>
+    <script src="js/main.js" defer></script>
+
+    <title>Memory Game</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="game">
+        <label>Choose Level</label>
+        <select class="level">
+          <option value="Easy">Easy</option>
+          <option value="Normal">Normal</option>
+          <option value="Hard">Hard</option>
+        </select>
+        <div class="info">
+          <span>Hello: <label class="user-name">test</label></span>
+          <span>wrong times: <label class="wong-times">0</label></span>
+        </div>
+        <div class="play-ground"></div>
+        <a class="start-over" href="#">Start Over</a>
+      </div>
+    </div>
+    <audio id="success" src="sounds/success_sound.mp3" preload="auto"></audio>
+  </body>
+</html>

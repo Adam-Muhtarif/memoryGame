@@ -1,0 +1,53 @@
+{
+  "Easy": [
+    "bootstrap",
+    "angular",
+    "react",
+    "node",
+    "vuejs",
+    "python",
+    "swift",
+    "js",
+    "php",
+    "html5"
+  ],
+  "Normal": [
+    "bootstrap",
+    "angular",
+    "react",
+    "node",
+    "vuejs",
+    "python",
+    "swift",
+    "js",
+    "php",
+    "html5",
+    "facebook-f",
+    "twitter",
+    "instagram",
+    "tiktok",
+    "linkedin"
+  ],
+  "Hard": [
+    "bootstrap",
+    "angular",
+    "react",
+    "node",
+    "vuejs",
+    "python",
+    "swift",
+    "js",
+    "php",
+    "html5",
+    "facebook-f",
+    "twitter",
+    "instagram",
+    "airbnb",
+    "linkedin",
+    "youtube",
+    "whatsapp",
+    "telegram",
+    "discord",
+    "apple"
+  ]
+}
